@@ -144,7 +144,8 @@ h3 {
 	border-bottom: none;
 }
 
-p {
+p {      
+	text-indent:2em;
 	margin-top: 0.0em;
 	margin-bottom: 0.8em;
 	padding: 0;

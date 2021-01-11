@@ -2,17 +2,24 @@
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
-  <style>
+<style>
 * {
   box-sizing: border-box;
 }
 
-/* Create two equal columns that floats next to each other */
+/* Create two unequal columns that floats next to each other */
 .column {
   float: left;
-  width: 50%;
   padding: 10px;
   height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
 }
 
 /* Clear floats after the columns */
@@ -45,13 +52,13 @@
 <h1>About me</h1>
 </div>
   <div class="row">
-  <div class="column">
+  <div class="column left">
 <table class="imgtable"><tr><td>
 <a href="IMGLINKTARGET"><img src="YangYu3.jpg" alt="alt text" width="220"  height="300" /></a>&nbsp;</td>
 <td align="left"></td></tr></table>
   </div>
     
-  <div class="column">
+  <div class="column right">
 <p>Postdoctoral Scholar <br />
 <a href="https://bears.berkeley.edu/">Berkeley Education Alliance for Resaerch in Singapore Limited (BEARS)</a> <br />
 University of California, Berkeley <br /></p>

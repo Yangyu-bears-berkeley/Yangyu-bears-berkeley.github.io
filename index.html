@@ -2,6 +2,26 @@
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
+  <style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
 <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
@@ -24,6 +44,8 @@
 <div id="toptitle">
 <h1>About me</h1>
 </div>
+  <div class="row">
+  <div class="column" style="background-color:#aaa;">
 <table class="imgtable"><tr><td>
 <a href="IMGLINKTARGET"><img src="YangYu3.jpg" alt="alt text" width="220"  height="300" /></a>&nbsp;</td>
 <td align="left"></td></tr></table>
@@ -35,6 +57,14 @@ University of California, Berkeley <br /></p>
 &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Singapore <br />
 Phone: (065) 8350-0297></p>
 <p>Email: &lt;yu.yang &gt; [at] &lt;bears-berkeley.sg&gt;</p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Column 2</h2>
+    <p>Some text..</p>
+  </div>
+</div>
+  
+
 <div id="footer">
 <div id="footer-text">
 Page generated 2020-05-26 14:00:00, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.

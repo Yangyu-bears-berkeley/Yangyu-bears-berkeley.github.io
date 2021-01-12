@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+      <style>
+div {
+  max-width: 900px;
+  min-width: 100px;
+  text-align:justify
+}
+ p.big {
+  line-height: 1.3;
+}
+</style>
+  
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Programs</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Yu Yang</div>
+<div class="menu-item"><a href="index.html" class="current">Home</a></div>
+<div class="menu-item"><a href="bio.html">Bios</a></div>
+<div class="menu-item"><a href="research.html">Research</a></div>
+  <div class="menu-item"><a href="programs.html">Projects</a></div>
+<div class="menu-item"><a href="publications.html">Publications</a></div>
+   <div class="menu-item"><a href="cv.html">CV</a></div>
+ <div class="menu-item"><a href="news.html">Posts</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h2>Bring Energy Storage (ES) and Renewable Energy (RE) to Energy Systems via Market Design</h2>
+</div>  
+  <div>
+    
+    <h4> Overview</h4>
+ <p class="big">  &nbsp; &nbsp; To facilitate energy-efficient buildings, three challenges are required to address regarding the control and optimization of HVAC systems: i) support the uncertain thermal demand of
+occupants; ii) overcome computational challenge at coordinating zone cooling demand and interactions, especially commercial HVAC system; iii) Lack indoor air quality (IAQ)management. To address such challenges, we have applied reinforcement learning (RL) and
+decentralized optimization techniques to achieve adaptive and scalable control HVAC systems for saving energy and providing an enhanced indoor environment.
+Particularly, we have developed a learning framework based on RL technique which can learn optimal stochastic control policy for HVAC (based on historical weather and occupancy
+data) in response to the uncertain thermal demand. Further, to overcome the computational burden of commercial HVAC system, we developed
+a scalable and computationally efficient method to optimize the control of commercial HVAC system using decentralized computation. The proposed decentralized method can embed
+the IAQ index in commercial HVAC control. Our main milestone at simulation level is that our method is scalable to 200-zone buildings and can achieve about 11% electricity cost
+reduction and enhanced indoor environment (thermal comfort and IAQ simultaneously) within seconds of computation.  </p>
+    
+    <p class="big">  &nbsp; &nbsp; In this project, we have applied game theory (coalition game and stackelberg game) to address the market design of ES sharing for 
+      cost-effective renewable integration. Particularly, these works can work as examples how market design can shape the efficiency of resources 
+      in energy systems.  </b> </p>
+
+  <h4>  Optimal  Sharing and Fair Cost Allocation of Community Energy Storage </h4>
+  <div> <a href="IMGLINKTARGET"><img src="Project1_1.png" alt="alt text" width="500"  height="450" /></a> </div>
+
+
+
+  
+  <h4> Selling Renewable Utilization Service to Consumers via Cloud Energy Storage </h4>
+  <div> <a href="IMGLINKTARGET"><img src="Project1_2.png" alt="alt text" width="570"  height="460" /></a> </div>
+  
+  
+  
+  <h3> References</h3>
+  <ol>
+  <li> <b>Yu Yang</b>, Guoqiang Hu, Costas J. Spanos, “Optimal Sharing and Fair Cost Allocation of Community Energy Storage,” submitted to IEEE Transactions on Smart Grid, under review, 2020. </li>
+  <li> <b>Yu Yang</b>, Utkarsha Agwan, Guoqiang Hu, Costas J. Spanos, “Selling Renewable Utilization Service to Consumers via Cloud Energy Storage,” under submission, 2020. </li>
+    </ol>
+  </div>
+  
+ 
+<div id="footer">
+<div id="footer-text">
+Page generated 2020-05-26 14:00:00, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
